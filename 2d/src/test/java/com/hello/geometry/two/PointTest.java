@@ -10,5 +10,6 @@ public class PointTest {
     public void canConstruct() {
         Point p = new Point(5.0, 6.1);
         assertEquals(5.0, p.getX(), 0.0001);
+        assertEquals(6.1, p.getY(), 0.0001);
     }
 }
